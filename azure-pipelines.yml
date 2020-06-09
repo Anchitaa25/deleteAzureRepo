@@ -38,3 +38,5 @@ stages:
              pip install requests
              python deleteRepo.py $(repositoryName) $(organizationName) $(projectName) $(userName) $(passwordToken)
            displayName: 'run_code'
+
+        
